@@ -12,7 +12,7 @@ export default function Navbar(){
         <Link to = "/bmi">Bmi</Link>
     </Li>
     <Li>
-        <Link to = "/clac">Calc</Link>
+        <Link to = "/calc">Calc</Link>
     </Li>
     <Li>
         <Link to = "/counter">Counter</Link>

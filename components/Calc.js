@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import Layout from "../containers/Layout";
 export default function Calc (){
     const [num1, setNum1] = useState(0)
-    const [opcode, setOpcode] = useState(0)
+    const [opcode, setOpcode] = useState("")
     const [num2, setNum2] = useState(0)
     const [result, setResult] = useState(0)
     const res =()=>{
@@ -44,7 +44,7 @@ export default function Calc (){
 
     <label><b>num2</b></label>
     <input id = "num2" type = ""/><br/>
-    <button onClick={()=>()}>실행</button>
+    <button onClick={()=>res()}>실행</button>
     <div>결과 : {num1} {opcode} {num2} = {result}</div>
     
     </div>

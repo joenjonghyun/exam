@@ -29,7 +29,7 @@ export default function Grade(){
     <input id = "math" type= ""/><br/>
 
     <button onClick={()=>res()}>확인</button>
-    <div>결과 <br/>{"이름 : " + name} {"국어 : " +kor} {"영어 : " + eng} {"수학 : " + math}</div>
+    <div>결과 <br/>{"이름 : " + name}<br/> {"국어 : " +kor} {"영어 : " + eng} {"수학 : " + math}</div>
 
     
     </div>
